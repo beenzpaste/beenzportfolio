@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), url("/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("Regular");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+}
+
+[data-mantine-color-scheme='dark'] MantineProvider {
+    color: #192A2C;
+}

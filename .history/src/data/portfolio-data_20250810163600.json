@@ -1,0 +1,48 @@
+{
+  "portfolioItems": [
+    {
+      "id": 1,
+      "title": "Bus Stop Shelter",
+      "subtitle": "Design Competition Proposal",
+      "slug": "bus-stop-shelter",
+      "mainImage": "/images/portfolio/busstop_transp.png",
+      "content": "Team lead in conceptualizing a weather-proof, double-decker, IOT-forward, and fundamentally Abu Dhabi bus shelter for the Abu Dhabi Projects and Infrastructure Center (ADPIC).\n\nDeveloped over the course of **1.5 months** as a team of three, I was responsible for:\n\n### Research\n- Bus stop & system case studies\n- Local bus system analysis\n- Material selection\n\n### Renders\n- Sketchup models\n- Twinmotion renders\n\n### Concept Statement\nCreated comprehensive design documentation and presentation materials.",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
+        "/placeholder.svg?height=200&width=300&text=3D+Model",
+        "/placeholder.svg?height=200&width=300&text=Material+Study",
+        "/placeholder.svg?height=200&width=300&text=Final+Render"
+      ],
+      "imageGridColumns": "two-column"
+    },
+    {
+      "id": 2,
+      "title": "Library Wayfinding Redesign",
+      "subtitle": "IoT Integration Project",
+      "slug": "smart-home-system",
+      "mainImage": "/images/portfolio/librarysign_transp.png",
+      "content": "Developed a comprehensive smart home automation system using Arduino and various sensors for environmental monitoring and control.\n\n### Project Overview\nThis project focused on creating an integrated IoT ecosystem that could monitor and control various aspects of a home environment including temperature, humidity, lighting, and security systems.\n\n### Technical Implementation\n- **Hardware**: Arduino Uno, Raspberry Pi, various sensors\n- **Software**: Custom mobile application, web dashboard\n- **Duration**: 3 months\n\n### Key Features\n- Real-time environmental monitoring\n- Remote control via mobile app\n- Automated responses to environmental changes\n- Energy consumption tracking",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Circuit+Design",
+        "/placeholder.svg?height=200&width=300&text=Mobile+App",
+        "/placeholder.svg?height=200&width=300&text=Dashboard"
+      ],
+      "imageGridColumns": "three-column"
+    },
+    {
+      "id": 3,
+      "title": "Metro Map Design",
+      "subtitle": "Data Visualization Platform",
+      "slug": "renewable-energy-dashboard",
+      "mainImage": "/images/portfolio/metromap_transp.png",
+      "content": "Created an interactive dashboard for monitoring and analyzing renewable energy consumption patterns across multiple facilities.\n\n### Project Scope\nThis full-stack web application was designed to help facility managers track and optimize their renewable energy usage across multiple locations.\n\n### Technologies Used\n- **Frontend**: React, D3.js for data visualization\n- **Backend**: Node.js, Express\n- **Database**: PostgreSQL\n- **Duration**: 2 months\n\n### Key Achievements\n- Real-time data processing from multiple energy sources\n- Interactive charts and graphs for trend analysis\n- Automated reporting system\n- Mobile-responsive design",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Data+Visualization",
+        "/placeholder.svg?height=200&width=300&text=Mobile+View",
+        "/placeholder.svg?height=200&width=300&text=Analytics+Panel",
+        "/placeholder.svg?height=200&width=300&text=Report+Generation"
+      ],
+      "imageGridColumns": "two-column"
+    }
+  ]
+}

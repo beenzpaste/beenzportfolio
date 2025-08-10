@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), url("/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("Regular");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-mantine-color-scheme='dark'] body {
+  background-color: #192A2C;
+}
+
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #192a2c;
+    color: #f1e6d2;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }

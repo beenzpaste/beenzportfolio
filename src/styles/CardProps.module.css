@@ -1,0 +1,17 @@
+/* components/PortfolioCard.module.css */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.subtitle {
+  margin-top: 0.25rem;
+}

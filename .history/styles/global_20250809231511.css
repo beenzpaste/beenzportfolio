@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Inknut Antiqua";
+  src: local("Inknut Antiqua"), url("/fonts/InknutAntiqua.ttf") format("Regular");
+  font-weight: normal;
+  font-style: normal;
+}

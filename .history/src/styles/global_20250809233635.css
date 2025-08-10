@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), url("/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("Regular");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #192A2C;
+  /* --foreground: #2C3638; */
+}
+
+background {
+  background-color: var(--background);
+}

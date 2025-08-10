@@ -1,0 +1,43 @@
+/* components/Navbar.module.css */
+.navbar {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--mantine-color-body);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--mantine-color-text);
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--mantine-color-text);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--mantine-color-blue-filled);
+}
+
+.toggle {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,62 @@
+
+  /* Page Container */
+  .pageContainer {
+    margin: 0 10vw;
+    padding-top: 100px;
+  }
+
+  /* Parallax container */
+  .parallaxContainer {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .parallaxElement {
+    position: absolute;
+    transition: transform 0.1s ease-out;
+  }
+
+  .bean1 {
+    top: 15%;
+    left: 25%;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+  }
+
+  .bean2 {
+    top: 20%;
+    left: 13%;
+    width: 120px;
+    height: auto;
+    z-index: 10;
+  }
+
+  .mainContent {
+    position: relative;
+    z-index: 5;
+    padding: 100px 0;
+  }
+
+  /* Typography */
+  .hero-title {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-style: italic;
+    color: #b52e2b;
+    margin-bottom: 0.5rem;
+    line-height: 0.8;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .hero-subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+    text-align: left;
+    font-weight: 400;
+  }
