@@ -4,17 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@mantine/core": "^8.2.2",
     "@mantine/hooks": "8.2.2",
     "@tabler/icons-react": "^3.34.1",
-    "gh-pages": "^6.3.0",
     "mark": "^0.10.0",
     "marked": "^16.1.1",
     "next": "15.3.3",
@@ -33,6 +30,5 @@
     "postcss-simple-vars": "^7.0.1",
     "typescript": "5.8.3"
   },
-  "packageManager": "yarn@4.9.2",
-  "homepage": "https://beenzpaste.github.io/beenzportfolio"
+  "packageManager": "yarn@4.9.2"
 }
