@@ -25,7 +25,6 @@ export default function Works() {
                                 className={styles.portfolioCardImage}
                             />
                             <p className={styles.portfolioTitle}>{item.title}</p>
-                            <p className={styles.portfolioSubtitle}>{item.subtitle}</p>
                         </Link>
                     ))}
                 </div>

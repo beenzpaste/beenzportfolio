@@ -24,8 +24,7 @@ export default function Works() {
                                 height={180}
                                 className={styles.portfolioCardImage}
                             />
-                            <p className={styles.portfolioTitle}>{item.title}</p>
-                            <p className={styles.portfolioSubtitle}>{item.subtitle}</p>
+                            {item.title}
                         </Link>
                     ))}
                 </div>

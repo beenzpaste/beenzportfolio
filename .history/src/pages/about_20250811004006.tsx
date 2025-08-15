@@ -52,26 +52,11 @@ export default function About() {
             <div className={styles.aboutContainer}>
                 <p className={styles.aboutLeft}>LinkedIn</p>
                 <p className={styles.aboutRight}>
-                    <a href="www.linkedin.com/in/hsin-chiang" className={styles.link}>
-                    www.linkedin.com/in/hsin-chiang
-                    </a>
+                    <a href="www.linkedin.com/in/hsin-chiang">www.linkedin.com/in/hsin-chiang</a>
                 </p>
                 <p className={styles.aboutLeft}>GitHub</p>
                 <p className={styles.aboutRight}>
-                    <a href="https://github.com/beenzpaste" className={styles.link}>
-                    https://github.com/beenzpaste
-                    </a>
-                </p>
-            
-            </div>
-
-            <h1 className={styles.aboutHeader}>Reach Out--</h1>
-            <div className={styles.aboutContainer}>
-                <p className={styles.aboutLeft}>Email</p>
-                <p className={styles.aboutRight}>
-                    <a href="www.linkedin.com/in/hsin-chiang" className={styles.link}>
-                    hc3550@nyu.edu
-                    </a>
+                    <a href="https://github.com/beenzpaste">https://github.com/beenzpaste</a>
                 </p>
             
             </div>

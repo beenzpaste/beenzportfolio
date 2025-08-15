@@ -64,17 +64,6 @@ export default function About() {
                 </p>
             
             </div>
-
-            <h1 className={styles.aboutHeader}>Reach Out--</h1>
-            <div className={styles.aboutContainer}>
-                <p className={styles.aboutLeft}>Email</p>
-                <p className={styles.aboutRight}>
-                    <a href="www.linkedin.com/in/hsin-chiang" className={styles.link}>
-                    hc3550@nyu.edu
-                    </a>
-                </p>
-            
-            </div>
         </div>
 
         <Footer />
