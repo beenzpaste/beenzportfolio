@@ -11,7 +11,7 @@ export default function About() {
         <div className={styles.abtPageContainer}>
             <h1 className={styles.aboutHeader}>About Me--</h1>
             <div className={styles.aboutContainer}>
-                <p className={styles.aboutLeft}>I'm</p>
+                <p className={styles.aboutLeft}>I&apos;m</p>
                 <p className={styles.aboutRight}>
                     Sheena Chiang //<br />
                     Hsin Chiang //<br />
@@ -43,7 +43,6 @@ export default function About() {
                 <p className={styles.aboutRight}>
                     English, Mandarin <span className={styles.aboutNote}>(Proficient)</span><br />
                     Japanese <span className={styles.aboutNote}>(Elementary)</span><br />
-                    French, German <span className={styles.aboutNote}>(Limited)</span>
                 </p>
             </div>
 
