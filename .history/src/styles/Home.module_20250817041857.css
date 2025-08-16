@@ -4,7 +4,7 @@
   flex-direction: column;
   position: relative;
   margin: 0 10vw;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 /* Page Container */
@@ -35,8 +35,8 @@
 }
 
 .bean2 {
-  top: 17%;
-  left: 13%;
+  top: 15%;
+  left: 14%;
   width: 150px;
   height: auto;
   z-index: 6;
@@ -47,7 +47,7 @@
   font-family: "Playfair Display", serif;
   font-size: 6rem;
   font-style: italic;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
   line-height: 0.8;
   text-align: left;
   font-weight: 400;
@@ -63,7 +63,6 @@
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   font-style: italic;
-  margin-top: 0.7rem;
   margin-bottom: 3rem;
   opacity: 0.9;
   text-align: left;

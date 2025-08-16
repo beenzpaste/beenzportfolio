@@ -21,11 +21,6 @@
   font-weight: bold;
   color: var(--mantine-color-text);
   text-decoration: none;
-  transition: color 0.4s ease;
-}
-
-.logo a:hover {
-  color: #B52E2B;
 }
 
 .links {

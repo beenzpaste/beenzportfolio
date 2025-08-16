@@ -21,11 +21,6 @@
   font-weight: bold;
   color: var(--mantine-color-text);
   text-decoration: none;
-  transition: color 0.4s ease;
-}
-
-.logo a:hover {
-  color: #B52E2B;
 }
 
 .links {
@@ -38,7 +33,7 @@
   text-decoration: none;
   color: var(--mantine-color-text);
   font-weight: 500;
-  transition: color 0.4s ease;
+  transition: color 0.5s ease;
 }
 
 .link:hover {
