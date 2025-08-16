@@ -25,7 +25,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     // prebuild each slug
     paths: items.map((item) => ({ params: { slug: item.slug } })),
     fallback: false, // set 'blocking' if you plan to add JSON items after build
-    // console.log(items.map(i => i.slug)),
+    console.log(items.map(i => i.slug)),
   };
 };
 
