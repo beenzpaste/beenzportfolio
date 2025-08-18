@@ -1,0 +1,173 @@
+/* ====== Portfolio Template (CSS Module) ====== */
+
+.pageContainer {
+    --space-2xs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    --radius-sm: 8px;
+    --radius-lg: 16px;
+
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+@media (min-width: 768px) {
+    .pageContainer {
+        padding-inline: var(--space-xl);
+        padding-block: var(--space-2xl);
+    }
+}
+
+.portfolioTemplate {
+    width: 100%;
+    max-width: var(--page-max-width);
+}
+
+/* Headings */
+.portfolioTemplate h1 {
+    font-size: clamp(3rem, 10vw + 1rem, 10rem);
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: -4%;
+    line-height: 0.8;
+    letter-spacing: -4%;
+    text-align: left;
+    color: #B52E2B;
+}
+
+.portfolioTemplate h2 {
+    font-size: clamp(1.5rem, 2vw + 0.75rem, 3rem);
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--fg-muted);
+    margin: 0 0 var(--space-lg);
+    text-align: left;
+    color: #F1E6D2;
+}
+
+.portfolioTemplate h3 {
+    font-size: clamp(1.1rem, 0.8vw + 0.9rem, 1.35rem);
+    margin: var(--space-lg) 0 var(--space-sm);
+}
+
+/* Main image */
+.mainImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    margin: 0 0 var(--space-xl);
+    object-fit: cover;
+}
+
+/* Parsed content */
+.contentText {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--fg);
+    margin-bottom: var(--space-xl);
+}
+
+.contentText p {
+    margin: 0 0 var(--space-md);
+}
+
+.contentText ul {
+    margin: 0 0 var(--space-md) var(--space-md);
+    padding-left: 1.25rem;
+    list-style: disc;
+}
+
+.contentText li {
+    margin: 0 0 var(--space-xs);
+}
+
+.duration {
+    font-weight: 700;
+}
+
+.contentText a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.contentText a:hover,
+.contentText a:focus-visible {
+    text-decoration-thickness: 2px;
+    outline: none;
+}
+
+/* Additional images grid */
+.imageGrid {
+    display: grid;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+}
+
+/* Column variants */
+.twoColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.threeColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fourColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+    .threeColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .fourColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .twoColumn {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .threeColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .fourColumn {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+/* Images inside grid */
+.imageGrid img,
+.imageGrid span>img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+    display: block;
+}
+
+/* Local focus rings */
+.portfolioTemplate a:focus-visible,
+.imageGrid img:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}

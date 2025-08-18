@@ -37,7 +37,7 @@ function parseContent(content: string): JSX.Element[] {
         const parts = text.split("**")
         const content = parts.map((part, index) =>
           index % 2 === 1 ? (
-            <span key={index} className={styles.duration}>
+            <span key={index} className="duration">
               {part}
             </span>
           ) : (
@@ -105,7 +105,6 @@ export default function PortfolioTemplate({ item }: PortfolioTemplateProps) {
       <Navbar />
       <div className={styles.pageContainer}>
         <div className={styles.portfolioTemplate}>
-
           <h1>{item.title}</h1>
           <h2>{item.subtitle}</h2>
 
