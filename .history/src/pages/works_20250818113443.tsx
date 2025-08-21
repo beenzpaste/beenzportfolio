@@ -15,15 +15,15 @@ export default function Works() {
             <div className={styles.mainContent}>
                 <div className={styles.portfolioGrid}>
                     {portfolioData.portfolioItems.map((item) => (
-                        <Link key={item.id} href={`/${item.slug}`} className={styles.portfolioCard}>
-                            <Image
-                                // src={`/images/${item.id}.png`}
-                                src={item.cardImage}
-                                alt={`${item.title} Image`}
-                                width={300}
-                                height={180}
-                                className={styles.portfolioCardImage}
-                            />
+                        <Link key={item.id} href={`/portfolio/${item.slug}`} className={styles.portfolioCard}>
+                            <div className={styles.imageWrapper}>
+                                <Image
+                                    src={item.cardImage}
+                                    alt={`${item.title} Image`}
+                                    fill   // <-- replaces width/height
+                                    className={styles.portfolioCardImage}
+                                />
+                            </div>
                             <p className={styles.portfolioTitle}>{item.title}</p>
                             <p className={styles.portfolioSubtitle}>{item.subtitle}</p>
                         </Link>

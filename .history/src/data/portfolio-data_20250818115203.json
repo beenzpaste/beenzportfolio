@@ -1,0 +1,71 @@
+{
+  "portfolioItems": [
+    {
+      "id": 1,
+      "title": "Bus Stop Shelter",
+      "subtitle": "Design Competition Proposal",
+      "slug": "bus-stop-shelter",
+      "cardImage": "/images/portfolio/busstop_transp.png",
+      "mainImage": "/images/busstop.png",
+      "content": "**Team lead** in conceptualizing a weather-proof, double-decker, IOT-forward, and fundamentally Abu Dhabi bus shelter for the Abu Dhabi Projects and Infrastructure Center (ADPIC).\n\nDeveloped over the course of **1.5 months** as a team of three, I was responsible for:\n- **Research:** bus stop & system case studies, local bus system, material selection \n\n- **Renders:** Sketchup models, Twinmotion renders\n\n- **Organization:** Coordinated team tasks & materials, documented research methods & resources, synthesized design intention in Concept Statement",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
+        "/placeholder.svg?height=200&width=300&text=3D+Model",
+        "/placeholder.svg?height=200&width=300&text=Material+Study",
+        "/placeholder.svg?height=200&width=300&text=Final+Render"
+      ],
+      "imageGridColumns": "two-column"
+    },
+    {
+      "id": 2,
+      "title": "Wayfinding Redesign",
+      "subtitle": "For the NYUAD Library",
+      "slug": "library-wayfinding",
+      "cardImage": "/images/portfolio/librarysign_transp.png",
+      "mainImage": "/images/librarysign.png",
+      "content": "Devised curated solutions addressing NYUAD library problems expanding on library admin design brief that increase **legibility** and **accessibility**, improve **physical and digital navigation**, and establish a **strong visual identity** \n###Responsible for all creation of:\n- custom icons- branding guidelines- photoshop visuals- mockups",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Circuit+Design",
+        "/placeholder.svg?height=200&width=300&text=Mobile+App",
+        "/placeholder.svg?height=200&width=300&text=Dashboard"
+      ],
+      "imageGridColumns": "three-column"
+    },
+    {
+      "id": 3,
+      "title": "Metro Map Design",
+      "subtitle": "Theoretical Comission",
+      "slug": "ad-metro-map",
+      "cardImage": "/images/portfolio/metromap_transp2.png",
+      "mainImage": "/images/metromap.png",
+      "content": "",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Data+Visualization",
+        "/placeholder.svg?height=200&width=300&text=Mobile+View",
+        "/placeholder.svg?height=200&width=300&text=Analytics+Panel",
+        "/placeholder.svg?height=200&width=300&text=Report+Generation"
+      ],
+      "imageGridColumns": "two-column"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "subtitle": "Using React, Next.js & Mantine",
+      "slug": "portfolio-website",
+      "cardImage": "/images/portfolio/website_transp.png",
+      "mainImage": "/images/website.png",
+      "content": "",
+      "additionalImages": [
+        "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
+        "/placeholder.svg?height=200&width=300&text=3D+Model",
+        "/placeholder.svg?height=200&width=300&text=Material+Study",
+        "/placeholder.svg?height=200&width=300&text=Final+Render"
+      ],
+      "imageGridColumns": "two-column"
+    },
+    {
+      "content1": "Created an interactive dashboard for monitoring and analyzing renewable energy consumption patterns across multiple facilities.\n\n### Project Scope\nThis full-stack web application was designed to help facility managers track and optimize their renewable energy usage across multiple locations.\n\n### Technologies Used\n- **Frontend**: React, D3.js for data visualization\n- **Backend**: Node.js, Express\n- **Database**: PostgreSQL\n- **Duration**: 2 months\n\n### Key Achievements\n- Real-time data processing from multiple energy sources\n- Interactive charts and graphs for trend analysis\n- Automated reporting system\n- Mobile-responsive design",
+      "content2": "Developed a comprehensive smart home automation system using Arduino and various sensors for environmental monitoring and control.\n\n### Project Overview\nThis project focused on creating an integrated IoT ecosystem that could monitor and control various aspects of a home environment including temperature, humidity, lighting, and security systems.\n\n### Technical Implementation\n- **Hardware**: Arduino Uno, Raspberry Pi, various sensors\n- **Software**: Custom mobile application, web dashboard\n- **Duration**: 3 months\n\n### Key Features\n- Real-time environmental monitoring\n- Remote control via mobile app\n- Automated responses to environmental changes\n- Energy consumption tracking",
+    }
+  ]
+}

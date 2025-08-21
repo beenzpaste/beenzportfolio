@@ -7,10 +7,10 @@ export interface PortfolioItem {
   title: string;
   subtitle: string;
   slug: string;
-  cardImage: string;
   mainImage: string;
   content: string;
   additionalImages: string[];
+  imageGridColumns: 'two-column' | 'three-column' | 'four-column';
 }
 
 type Props = { item: PortfolioItem };

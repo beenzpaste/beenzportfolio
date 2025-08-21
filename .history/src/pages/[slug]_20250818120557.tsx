@@ -7,7 +7,6 @@ export interface PortfolioItem {
   title: string;
   subtitle: string;
   slug: string;
-  cardImage: string;
   mainImage: string;
   content: string;
   additionalImages: string[];

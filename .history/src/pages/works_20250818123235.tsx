@@ -15,7 +15,7 @@ export default function Works() {
             <div className={styles.mainContent}>
                 <div className={styles.portfolioGrid}>
                     {portfolioData.portfolioItems.map((item) => (
-                        <Link key={item.id} href={`/${item.slug}`} className={styles.portfolioCard}>
+                        <Link key={item.id} href={`/portfolio/${item.slug}`} className={styles.portfolioCard}>
                             <Image
                                 // src={`/images/${item.id}.png`}
                                 src={item.cardImage}

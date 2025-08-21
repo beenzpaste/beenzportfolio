@@ -41,7 +41,7 @@
 
 .portfolioTitle {
     font-family: Playfair Display, serif;
-    font-style: italic;
+    
     color: var(--mantine-color-text);
     margin: 0px;
 }

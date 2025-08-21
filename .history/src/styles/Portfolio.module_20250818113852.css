@@ -112,20 +112,63 @@
 
 /* Additional images grid */
 .imageGrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-md);
-  align-items: flex-start;     /* keep tops aligned on wrap */
+    display: grid;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
 }
 
+/* Column variants */
+.twoColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.threeColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fourColumn {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+    .threeColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .fourColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .twoColumn {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .threeColumn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .fourColumn {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+/* Images inside grid */
 .imageGrid img,
-.imageGrid span > img {        /* Next/Image wrapper safety */
-  width: auto;
-  height: auto;
-  max-width: 100%;             /* don’t overflow the page on narrow viewports */
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  display: block;
-  /* No object-fit here — that’s for cropping/scaling */
+.imageGrid span>img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+    display: block;
+}
+
+/* Local focus rings */
+.portfolioTemplate a:focus-visible,
+.imageGrid img:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
 }

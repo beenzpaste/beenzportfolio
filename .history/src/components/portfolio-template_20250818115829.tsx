@@ -126,10 +126,8 @@ export default function PortfolioTemplate({ item }: PortfolioTemplateProps) {
                   key={index}
                   src={image || "/placeholder.svg"}
                   alt={`${item.title} additional image ${index + 1}`}
-                  width={0}
-                  height={0}
-                  sizes="auto"
-                  style={{ width: "auto", height: "auto" }} 
+                  width={300}
+                  height={200}
                 />
               ))}
             </div>

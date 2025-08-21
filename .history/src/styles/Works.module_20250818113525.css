@@ -34,14 +34,25 @@
   background-color: var(--mantine-color-gray-light-hover);
 }
 
-.portfolioCardImage {
-  margin: 10px;
-  size: minmax(250px, 1fr);
+
+.imageWrapper {
+  position: relative;
+  width: 100%;   /* or 100% if you want responsive */
+  height: 180px;  /* control the aspect ratio */
 }
 
+.portfolioCardImage {
+  object-fit: cover; /* makes the image cover the box (no white bars) */
+  /* border-radius: 12px; optional styling */
+}
+/* .portfolioCardImage {
+  margin: 10px;
+  size: minmax(250px, 1fr);
+} */
+
 .portfolioTitle {
-    font-family: Playfair Display, serif;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
     color: var(--mantine-color-text);
     margin: 0px;
 }

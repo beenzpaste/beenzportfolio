@@ -38,7 +38,10 @@
       "mainImage": "/images/metromap.png",
       "content": "",
       "additionalImages": [
-        "/images/portfolio/3/metromap_draft1.png"
+        "/placeholder.svg?height=200&width=300&text=Data+Visualization",
+        "/placeholder.svg?height=200&width=300&text=Mobile+View",
+        "/placeholder.svg?height=200&width=300&text=Analytics+Panel",
+        "/placeholder.svg?height=200&width=300&text=Report+Generation"
       ]
     },
     {

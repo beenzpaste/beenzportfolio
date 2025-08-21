@@ -9,10 +9,10 @@
       "mainImage": "/images/busstop.png",
       "content": "**Team lead** in conceptualizing a weather-proof, double-decker, IOT-forward, and fundamentally Abu Dhabi bus shelter for the Abu Dhabi Projects and Infrastructure Center (ADPIC).\n\nDeveloped over the course of **1.5 months** as a team of three, I was responsible for:\n- Research: bus stop & system case studies, local bus system, material selection \n- Renders: Sketchup models, Twinmotion renders\n- Organization: Coordinated team tasks & materials, documented research methods & resources, synthesized design intention in Concept Statement",
       "additionalImages": [
-        "/images/portfolio/1/BusStop_Model_Back.jpg",
-        "/images/portfolio/1/BusStop_Model_Front.jpg",
-        "/images/portfolio/1/BusStop_Model_Side.jpg",
-        "/images/portfolio/1/BusStop_Model_WithCrosswalk.png"
+        "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
+        "/placeholder.svg?height=200&width=300&text=3D+Model",
+        "/placeholder.svg?height=200&width=300&text=Material+Study",
+        "/placeholder.svg?height=200&width=300&text=Final+Render"
       ]
     },
     {
@@ -38,7 +38,10 @@
       "mainImage": "/images/metromap.png",
       "content": "",
       "additionalImages": [
-        "/images/portfolio/3/metromap_draft1.png"
+        "/placeholder.svg?height=200&width=300&text=Data+Visualization",
+        "/placeholder.svg?height=200&width=300&text=Mobile+View",
+        "/placeholder.svg?height=200&width=300&text=Analytics+Panel",
+        "/placeholder.svg?height=200&width=300&text=Report+Generation"
       ]
     },
     {
@@ -48,7 +51,7 @@
       "slug": "portfolio-website",
       "cardImage": "/images/portfolio/website_transp.png",
       "mainImage": "/images/website.png",
-      "content": "Metro map design for design brief of a hypothetical subway line connecting Saadiyat Island with mainland Abu Dhabi.",
+      "content": "",
       "additionalImages": [
         "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
         "/placeholder.svg?height=200&width=300&text=3D+Model",

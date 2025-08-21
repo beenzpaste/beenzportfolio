@@ -38,7 +38,10 @@
       "mainImage": "/images/metromap.png",
       "content": "",
       "additionalImages": [
-        "/images/portfolio/3/metromap_draft1.png"
+        "/placeholder.svg?height=200&width=300&text=Data+Visualization",
+        "/placeholder.svg?height=200&width=300&text=Mobile+View",
+        "/placeholder.svg?height=200&width=300&text=Analytics+Panel",
+        "/placeholder.svg?height=200&width=300&text=Report+Generation"
       ]
     },
     {
@@ -48,7 +51,7 @@
       "slug": "portfolio-website",
       "cardImage": "/images/portfolio/website_transp.png",
       "mainImage": "/images/website.png",
-      "content": "Metro map design for design brief of a hypothetical subway line connecting Saadiyat Island with mainland Abu Dhabi.",
+      "content": "",
       "additionalImages": [
         "/placeholder.svg?height=200&width=300&text=Concept+Sketch",
         "/placeholder.svg?height=200&width=300&text=3D+Model",
