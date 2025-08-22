@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
-import styles from "../styles/About.module.css";
+import styles from "/About.module.css";
 
 export default function About() {
 
