@@ -119,7 +119,7 @@ export default function PortfolioTemplate({ item }: PortfolioTemplateProps) {
           <div className="content-text">{contentElements}</div>
 
           {item.additionalImages && item.additionalImages.length > 0 && (
-            <div className={styles.imageGrid}>
+            <div className={`styles.imageGrid ${item.imageGridColumns}`}>
               {item.additionalImages.map((image, index) => (
                 <Image
                   key={index}
